@@ -1,0 +1,40 @@
+{
+  "Author": [
+    {
+      "id": 1,
+      "firstName": "kanku",
+      "lastName": "cheru",
+      "bookCode": 8375969699,
+      "contactNumber": "9000401656",
+      "address": "hyderabad",
+      "price": 2589
+    },
+    {
+      "id": 2,
+      "firstName": "santhos",
+      "lastName": "kalki",
+      "bookCode": 46464768,
+      "contactNumber": "9848022339",
+      "address": "Vizag",
+      "price": 1200
+    },
+    {
+      "id": 3,
+      "firstName": "jagath",
+      "lastName": "reddy",
+      "bookCode": 44768,
+      "contactNumber": 9398124418,
+      "address": "nandavaram",
+      "price": 3000
+    },
+    {
+      "id": 7,
+      "firstName": "kahaja",
+      "lastName": "hussian",
+      "bookCode": "354646",
+      "contactNumber": "9985514518",
+      "address": "nandyal",
+      "price": "2500"
+    }
+  ]
+}

@@ -1,0 +1,21 @@
+<table class="table table-hover">
+  <tr *ngFor="let author of authorService.allAuthor">
+    <td>{{author.id}}</td>
+    <td>{{author.firstName}}</td>
+    <td>{{author.lastName}}</td>
+    <td>{{author.bookCode}}</td>
+    <td>{{author.contactNumber}}</td>
+    <td>{{author.address}}</td>
+    <td>{{author.price}}</td>
+    <td>
+      <a class="btn text-danger" (click)="deleteAuthor(author.id)">
+        <i class="fa fa-trash">delete</i>
+      </a>
+    </td>
+    <td>
+      <a class="btn" (click)="editAuthor(author)">
+        <i class="fa fa-edit">edits</i>
+      </a>
+    </td>
+  </tr>
+</table>
